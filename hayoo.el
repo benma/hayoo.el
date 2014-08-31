@@ -123,7 +123,7 @@
      (if (region-active-p)
          (setq def (buffer-substring-no-properties (region-beginning) (region-end)))
        (when (fboundp 'haskell-ident-at-point)
-         (setq def (haskell-ident-at-point)))e
+         (setq def (haskell-ident-at-point)))
        (if (and def (symbolp def)) (setq def (symbol-name def))))
        
      (list (read-string (if def
