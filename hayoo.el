@@ -5,7 +5,7 @@
 ;; Author: Marko Bencun <mbencun@gmail.com>
 ;; URL: https://github.com/benma/hayoo.el/
 ;; Version: 0.1
-;; Package-requires: ((json "1.3"))
+;; Package-requires: ((emacs "24") (json "1.3"))
 ;; Keywords: hayoo, haskell
 
 ;; This program is free software; you can redistribute it and/or modify
